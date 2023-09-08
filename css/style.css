@@ -59,7 +59,6 @@ h3 {
     width: 24vw;
     min-width: 300px;
     min-height: 480px;
-    z-index: 2;
 }
 
 .ContainerPrincipal {
@@ -115,4 +114,8 @@ body {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     pointer-events: none;
+}
+
+.ImagemDoSite {
+    z-index: 2;
 }

@@ -1,10 +1,7 @@
 {
-
-    
     "trailingComma": "es5",
     "tabWidth": 4,
-    "semi":true,
-    "singleAttributePerLine": true,
+    "semi": true,
+    "singleAttributePerLine": false,
     "printWidth": 88
-
 }

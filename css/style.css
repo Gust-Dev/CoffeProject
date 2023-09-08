@@ -59,6 +59,7 @@ h3 {
     width: 24vw;
     min-width: 300px;
     min-height: 480px;
+    z-index: 2;
 }
 
 .ContainerPrincipal {
@@ -85,4 +86,33 @@ body {
 
 .TextosDoSite {
     padding-bottom: 16%;
+    z-index: 1;
+}
+
+.Detalhes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Detalhes1 img {
+    height: 90vh;
+    position: absolute;
+    left: 30px;
+    border-top-left-radius: 50px;
+    pointer-events: none;
+}
+
+.Detalhes2 img {
+    height: 60vh;
+    position: absolute;
+    pointer-events: none;
+    margin-top: 70px;
+}
+.Detalhes3 img {
+    height: 90vh;
+    position: absolute;
+    right: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    pointer-events: none;
 }

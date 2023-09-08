@@ -3,6 +3,7 @@
     gap: 90px;
     justify-content: center;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 li a {
@@ -21,11 +22,17 @@ li a {
 
     height: 95%;
     align-items: flex-end;
+    overflow: hidden;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 6vw;
     color: white;
+    font-family: "Carattere", cursive;
+    font-style: italic;
+    text-shadow: 0px 6px 2px rgba(0, 0, 0, 0.301);
+    letter-spacing: 4px;
+    font-weight: lighter;
 }
 
 h2 {
@@ -34,11 +41,18 @@ h2 {
     justify-content: flex-end;
     text-align-last: right;
     color: white;
+    letter-spacing: 2px;
+    font-family: "Cantarell", sans-serif;
+    font-weight: lighter;
 }
 
 h3 {
+    padding-top: 80px;
     font-size: 20px;
     color: white;
+    letter-spacing: 2px;
+    font-family: "Cantarell", sans-serif;
+    font-weight: lighter;
 }
 
 .ImagemDoSite img {
@@ -61,7 +75,7 @@ h3 {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(25, 18, 23);
 }
 
 .TelaInicial {
@@ -70,5 +84,5 @@ body {
 }
 
 .TextosDoSite {
-    padding-bottom: 30%;
+    padding-bottom: 16%;
 }

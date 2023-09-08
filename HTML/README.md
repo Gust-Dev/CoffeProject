@@ -1,2 +1,0 @@
-# CoffeProject
-Landing page concept 

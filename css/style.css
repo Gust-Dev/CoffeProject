@@ -62,11 +62,11 @@ h3 {
 }
 
 .ContainerPrincipal {
-    background-color: rgba(48, 31, 43, 1);
+    background-color: rgb(48, 31, 43);
     margin-top: 30px;
 
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 80px;
+    margin-left: 80px;
 
     border-radius: 50px;
     height: 90vh;
@@ -91,12 +91,13 @@ body {
 .Detalhes {
     display: flex;
     justify-content: space-around;
+    opacity: 0.7;
 }
 
 .Detalhes1 img {
     height: 90vh;
     position: absolute;
-    left: 30px;
+    left: 80px;
     border-top-left-radius: 50px;
     pointer-events: none;
 }
@@ -110,7 +111,7 @@ body {
 .Detalhes3 img {
     height: 90vh;
     position: absolute;
-    right: 30px;
+    right: 80px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     pointer-events: none;
